@@ -35,3 +35,27 @@ export default {
   },
 };
 </script>
+
+<style>
+#app {
+  background-color: #202123;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+</style>
