@@ -62,4 +62,9 @@ export default {
 h1 {
   margin-bottom: 20px;
 }
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
 </style>
