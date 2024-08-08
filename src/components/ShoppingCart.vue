@@ -33,8 +33,25 @@
   </script>
   
   <style>
+  .shopping-cart {
+    flex: 1;
+    padding: 20px;
+  }
+  
   .cart-item {
     margin-bottom: 10px;
   }
-  </style>
   
+  button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #ff7875;
+  }
+  </style>
