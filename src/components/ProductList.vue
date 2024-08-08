@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="product-list">
       <h2>Produtos Disponíveis</h2>
       <div v-for="product in products" :key="product.id" class="product">
         <p>{{ product.name }} - {{ product.price | currency }}</p>
@@ -30,6 +30,7 @@
   .product-list {
     flex: 1;
     padding: 20px;
+    text-align: left;
   }
   
   .product {
@@ -49,3 +50,4 @@
     background-color: #ff7875;
   }
   </style>
+  

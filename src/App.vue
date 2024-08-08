@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <h1>Carrinho de Compras Simples</h1>
-    <ProductList @add-to-cart="addToCart" />
-    <ShoppingCart :cart="cart" @remove-from-cart="removeFromCart" />
+    <div class="container">
+      <ProductList @add-to-cart="addToCart" />
+      <ShoppingCart :cart="cart" @remove-from-cart="removeFromCart" />
+    </div>
   </div>
 </template>
 
@@ -52,7 +54,9 @@ export default {
 .container {
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
 }
 
 h1 {
