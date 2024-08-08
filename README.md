@@ -1,4 +1,4 @@
-# ifsp-frontend-vuejs
+# IFSP-FRONTEND-VueJS
 Este projeto teve como objetivo entender o funcionamento e a sintaxe do vue ao desenvolver um carrinho de compras simples. Todo o desenvolvimento foi diante a componentização permitida pelo VueJS.
 
 
