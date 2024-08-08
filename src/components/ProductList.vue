@@ -13,8 +13,12 @@
     data() {
       return {
         products: [
-          { id: 1, name: 'Produto A', price: 100 },
-          { id: 2, name: 'Produto B', price: 150 },
+          { id: 1, name: 'Caneta', price: 1.30 },
+          { id: 2, name: 'Corretivo', price: 8.99 },
+          { id: 3, name: 'Lápis', price: 1.23 },
+          { id: 4, name: 'Borracha', price: 8.23 },
+          { id: 5, name: 'Régua', price: 18.35 },
+          { id: 6, name: 'Caderno', price: 38.87 },
         ],
       };
     },
@@ -30,7 +34,7 @@
   .product-list {
     flex: 1;
     padding: 20px;
-    text-align: left;
+    text-align: right;
   }
   
   .product {
