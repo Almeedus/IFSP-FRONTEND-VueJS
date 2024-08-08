@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <h1>Carrinho de Compras </h1>
+    <h1>Carrinho de Compras Simples</h1>
     <ProductList @add-to-cart="addToCart" />
-    <Cart :cart="cart" @remove-from-cart="removeFromCart" />
+    <ShoppingCart :cart="cart" @remove-from-cart="removeFromCart" />
   </div>
 </template>
 
 <script>
 import ProductList from './components/ProductList.vue';
+import ShoppingCart from './components/ShoppingCart.vue';
 
 export default {
   components: {
     ProductList,
+    ShoppingCart,
   },
   data() {
     return {
