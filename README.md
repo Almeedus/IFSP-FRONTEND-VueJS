@@ -1,24 +1,15 @@
 # ifsp-frontend-vuejs
+Este projeto teve como objetivo entender o funcionamento e a sintaxe do vue ao desenvolver um carrinho de compras simples. Todo o desenvolvimento foi diante a componentização permitida pelo VueJS.
 
-## Project setup
+
+## Instalando Dependências
+Instale tudo que é necessário para que o projeto funcione perfeitamente.
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Iniciando o Projeto
+Uma vez tudo instalado, rode o comando abaixo para iniciar o projeto.
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
